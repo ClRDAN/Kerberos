@@ -4,7 +4,7 @@
 # -------------------------------------
 
 /opt/docker/install.sh && echo "Install Ok"
-/usr/sbin/kadmind && echo "serv1 Ok"
-/usr/sbin/krb5kdc && echo "serv2  Ok"
+/usr/sbin/kadmind && echo "servicio de administracion de Kerberos Ok"
+/usr/sbin/krb5kdc && echo "servicio de distribucion de tickets  Ok"
 /bin/bash
 
