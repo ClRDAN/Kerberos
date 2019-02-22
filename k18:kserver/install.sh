@@ -15,3 +15,5 @@ kadmin.local -q "addprinc -pw kmarta marta/admin"
 kadmin.local -q "addprinc -pw kuser01 user01"
 kadmin.local -q "addprinc -pw kuser02 user02"
 kadmin.local -q "addprinc -pw kuser03 user03"
+kadmin.local -q "addprinc -randkey host/sshd.edt.org"
+
